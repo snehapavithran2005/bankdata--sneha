@@ -1,0 +1,31 @@
+<h1 class="text-primary">{{header}}</h1>
+
+<div class="row">
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4" style ="margin-top: 200px;">
+       
+
+        <h2 class="">login form</h2>
+<form action="" class="border m-5 p-5">
+    <div class="m-3">
+        <!-- acno -->
+        <input (change)="acnoChange($event)" class="form-control" type="text" [placeholder]="accplaceholder">
+    </div>
+    <div class="m-3">
+        <!-- password -->
+        <input (change)="acnoChange($event)"  class="form-control" type="password" placeholder="password plese">
+
+    </div>
+    <div>
+        <input (click)="login()" class="btn btn-primary" type="button" value="login" name="" id="loginbtn">
+    </div>
+
+</form>
+
+<div>
+    <label for="">not a user?click hear <a href=" ">register</a> </label>
+</div>
+<div class="col-lg-4"></div>
+
+
+</div>
